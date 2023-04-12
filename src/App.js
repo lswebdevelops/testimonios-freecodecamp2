@@ -1,7 +1,9 @@
 import './App.css';
+import React from 'react';
 import Testimonio from './componentes/Testimonio';
 
- function App() {
+class App extends React.Component{
+render(){
   return (
     <div className="App">
      <div className='contenedor-principal'>
@@ -38,6 +40,9 @@ import Testimonio from './componentes/Testimonio';
      </div>
     </div>
   );
-}
+};
+};
+
+
 
 export default App;

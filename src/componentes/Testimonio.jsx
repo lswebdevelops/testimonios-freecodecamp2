@@ -10,7 +10,7 @@ class Testimonio extends React.Component{
       <div className="contenedor-testimonio">
         <img className='imagen-testimonio'
         src={require(`../imagenes/testimonio-${this.props.imagen}.png`)}
-        alt={`foto de ${this.props.firstName}`}/>
+        alt={`foto de ${this.props.firstName}`} />
    
         <div className="contenedor-text-testimonio">
           <p className='nombre-testimonio'><strong>{this.props.nombre} </strong>en {this.props.pais}</p>
